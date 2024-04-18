@@ -1,0 +1,58 @@
+*{
+margin:0;
+padding:0;
+box-sizing: border-box;
+user-select: none;
+}
+body{
+    /* background: radial-gradient(orangered,white);
+    background-size:1200px 900px ; */
+    background-image:url("omkar\ vayu.jpg") ;
+    background-size: cover;
+    color: white;
+    
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+    margin: 20px;
+ 
+
+}
+h2{
+    letter-spacing: 16px;
+    background-color:black;
+    width: 900px;
+    text-align: center;
+    margin-left: 8%;
+    margin-top: 8px;
+    border-radius: 9px;
+}
+#details{
+    width: 450px;
+    height: 200px;
+    display: flex;
+    margin-top: 150px;
+    margin-left: 25px;
+    font-size: 20px;
+    text-align: initial;
+    border-left:2px solid white;
+    padding-left: 10px;
+
+
+
+}
+img{
+    width: 20px;
+    height: 10px;
+    margin-top: 4px;
+    position: relative;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+    color: red;
+}

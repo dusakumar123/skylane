@@ -1,0 +1,382 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+
+}
+
+body {
+    background: linear-gradient(30deg, orangered 30%, white 50%, orangered);
+    background-size: 5000px 5000px;
+   
+
+
+}
+
+.navbar {
+    width: 100%;
+    height: 60px;
+    border-bottom: 2px solid black;
+
+    flex-direction: row;
+    gap: 10px;
+    /* position: fixed;  */
+    /* animation: ; */
+
+}
+
+#com-name {
+    letter-spacing: 2px;
+    font-size: 20px;
+    top: 13px;
+
+    position: absolute;
+}
+
+#com-name span {
+    color: orangered;
+
+}
+
+.menu {
+    left: 500px;
+    position: absolute;
+    display: flex;
+    gap: 40px;
+    top: 4px;
+
+
+}
+
+.btn {
+    background-color: transparent;
+    border: none;
+    width: 100px;
+    height: 40px;
+    font-size: 13px;
+    border-radius: 30px;
+}
+
+.btn:hover {
+    background-color: royalblue;
+    transition: 0.7s;
+    color: white;
+}
+
+.container {
+    top: 30px;
+    position: relative;
+    height: 500px;
+
+}
+
+
+#inhand {
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 5px;
+
+
+}
+
+#inhand span {
+    color: orangered;
+
+}
+
+.project {
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    display: inline-block;
+    margin: 35px;
+    border-radius: 30px;
+    box-shadow: 5px 4px 3px black;
+    animation: pro 3s;
+
+
+
+}
+
+/* */
+
+#pro1 {
+    background-image: url("Parel\ Don\ October\ 01.jpeg");
+    background-size: cover;
+    /* display: flex; */
+
+    animation: pro 3s;
+
+}
+
+#pro2 {
+    background-image: url("pro2.png");
+    background-size: cover;
+    animation: pro 3s;
+
+}
+
+#pro3 {
+    background-image: url("pro3.png");
+    background-size: cover;
+    animation: pro 3s;
+}
+
+#pro4 {
+    background-image: url("pro4.png");
+    background-size: cover;
+    animation: pro 3s;
+    background-repeat: no-repeat;
+}
+
+#pro5 {
+    background-image: url("PRO5.png");
+    background-size: cover;
+    /* margin-left: 450px; */
+    animation: pro 3s;
+}
+
+.poject:hover {
+    transform: scale(1.1);
+    transition: 0.8s;
+}
+
+#info {
+    height: 200px;
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    margin-left: 270px;
+    position: relative;
+    border-radius: 30px;
+    box-shadow: 6px -5px 1px rgb(75, 60, 55);
+
+}
+
+h3 {
+
+
+    font-family: monospace, 'arial', sans-serif;
+    margin-left: 100px;
+}
+
+a {
+    text-decoration: none;
+    color: orangered;
+}
+
+#complit {
+    position: relative;
+    margin-top: 1000px;
+    margin-bottom: 400px;
+    text-align: center;
+    height: 100px;
+
+}
+
+#title {
+    color: orangered;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 10px;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+#title span {
+    color: white;
+
+
+}
+
+
+#file {
+    width: 200px;
+    height: 200px;
+    border: 4px groove black;
+    display: inline-block;
+    border-radius: 30px;
+    margin: 20px;
+    animation: file 2s;
+    box-shadow: 5px 5px 3px white;
+}
+
+.name {
+    height: 20px;
+    width: 100%;
+    margin-top: 170px;
+
+    
+
+}
+
+@keyframes file{
+from{
+    transform:translateX(-1000px);
+} 
+to {
+    transform: translateX(0px);
+} 
+ }
+#file:hover {
+    transform: scale(0.9);
+    transition: 0.9s;
+}
+
+
+.HOSPITALITY {
+    background-image: url("hotel.png");
+    background-size: 100% 100%;
+}
+
+.comm-p {
+    background-image: url("commercial-project.png");
+    background-size: 100% 100%;
+}
+
+.comm-m {
+    background-image: url("MALL.png");
+    background-size: 100% 100%;
+}
+
+.resi-bu {
+    background-image: url("RESI-BUL.png");
+    background-size: 100% 100%;
+}
+
+.medical {
+    background-image: url("hospital.png");
+    background-size: 100% 100%;
+}
+
+.health {
+    background-image: url("h&s.jpg");
+    background-size: 100% 100%;
+
+}
+
+.edu {
+    background-image: url("EDUCAION.png");
+    background-size: cover;
+
+}
+
+.pop {
+    width: 93%;
+    height: 600px;
+    margin: 20px;
+    background-color: white;
+    position: relative;
+    display: none;
+    border-radius: 30px;
+    border: 2px solid black;
+    
+}
+
+#pop-up-navbar {
+    height: 50px;
+    width: 100%;
+  
+
+}
+
+#close {
+    width: 40px;
+    height: 40px;
+    margin-left: 93%;
+    margin-top: 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+#close:hover {
+    color: white;
+    background-color: red;
+}
+
+
+.SCHOOLPIC {
+   background-image: url("school.png");
+   height:250px;
+   width: 250px;
+    border-radius:20px;
+    background-size: cover;
+    border: 2px solid black;
+    margin: 30px;
+    
+
+  
+  
+}
+.SCHOOLPIC:hover{
+    transform: scale(1.06);
+    transition: 0.9s;
+    box-shadow: 2px 5px 5px black;
+}
+.schoolpic-info:hover{
+    transform: scale(1.06);
+    transition: 0.9s;
+    box-shadow: 2px 5px 5px black;
+}
+
+
+
+
+.schoolpic-info {
+    height: 150px;
+    width: 250px;
+    border: 2px groove black;
+    margin: 30px;
+    border-radius: 30px;
+    font-size: 17px;
+ 
+
+}
+span{
+    color: orangered;
+}
+
+
+
+
+table{
+    border: 2px solid black;
+    width: 90%;
+    height: 50%;
+
+}
+
+
+
+
+
+.HOSPITALITYPIC-INFO {
+    height: 200px;
+    width: 200px;
+    border: 2px groove black;
+    position: absolute;
+    border-radius: 30px;
+   
+
+}
+tr,td,th{
+    border: 2px solid black;
+}
+ td:hover{
+    background-color:orangered ;
+    color: white;
+    transition: 0.9s;
+
+}
+th{
+    background: linear-gradient(white,orangered);
+
+}
+
+
+
+
